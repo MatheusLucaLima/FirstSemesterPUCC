@@ -186,8 +186,8 @@ def change_data():
 
 def delete_data():
     name = input("Enter the name of the user whose data you want to delete: ")
-    cursor.execute("DELETE FROM user_data WHERE name = %s", (name,))
     cursor.execute("DELETE FROM sustainability_scores WHERE user_id = (SELECT id FROM user_data WHERE name = %s)", (name,))
+    cursor.execute("DELETE FROM user_data WHERE name = %s", (name,))
     conecxtion.commit()
     print(f"Data for {name} deleted successfully!")
 
