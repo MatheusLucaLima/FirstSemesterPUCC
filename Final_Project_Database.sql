@@ -1,4 +1,8 @@
 /*CREATE DATABASE projeto_bd1;*/
+/*This is the final project for Database course.
+It was created by a group of 5 students, including me.
+This is the original version of the project, there is not any additional changes.
+*/
 
 USE projeto_bd1;
 
