@@ -1,3 +1,11 @@
+"""
+    This is the original version of Report Card,
+    It was created by a group of 3 students from PUC-Campinas,
+    It is written in portuguese.
+"""
+
+
+
 lista_alunos = []
 
 total_alunos = int(input("Digite a quantidade total de alunos a serem cadastrados: "))
